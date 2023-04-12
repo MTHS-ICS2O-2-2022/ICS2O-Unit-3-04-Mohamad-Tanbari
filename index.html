@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-9" />
-  <meta name="description" content="You can convert farenheit to celceius using this website" />
+  <meta name="description" content="You can convert farenheit to Celsius using this website" />
   <meta name="keywords" content="mths, ics2o" />
   <meta name="author" content="Mohamad" />
   <meta name="viewport" conent="width=device-width, initial-scale=1.0" />
@@ -13,7 +13,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
   <link rel="manifest" href="site.webmanifest" />
   <link rel="stylesheet" href="css/style.css" />
-  <title>Farenheit to celceius</title>
+  <title>Farenheit to celsius</title>
 </head>
 <body>
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
@@ -23,7 +23,7 @@
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
         <!-- Title -->
-        <span class="mdl-layout-title">Farenheit to Celceius</span>
+        <span class="mdl-layout-title">Farenheit to Celsius</span>
         <!-- Add spacer, to align navigation to the right -->
         <div class="mdl-layout-spacer"></div>
         <!-- Navigation. We hide it in small screens. -->
@@ -55,15 +55,15 @@
         <br />
         <br />
         <div class="page-content-top">
-          Enter the temperature in Farenheit
+          Enter the temperature in Fahrenheit
         </div>
         <br />
         <!-- Numeric Textfield with Floating Label -->
         <form action="#">
           °F 
           <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="farenheit-temperature" />
-            <label class="mdl-textfield__label" for="farenheit-temperature">Farenheit...</label>
+            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="fahrenheit-temperature" />
+            <label class="mdl-textfield__label" for="fahrenheit-temperature">Farenheit...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
@@ -75,7 +75,7 @@
         <br />
         <br />
         <!--Answer output from button-->
-        <div id="answer">Temperature in Celceius: ...</div>
+        <div id="answer">Temperature in Celsius: ...</div>
       </div>
     </main>
   </div>
