@@ -17,7 +17,7 @@ function calculate() {
   )
 
   // Calculate volume
-  const celsius = (fahrenheitTemperature - 32) * 0.5556
+  const celsius = (fahrenheitTemperature - 32) * 5/9
 
   // Output volume to the user
   document.getElementById("answer").innerHTML =
